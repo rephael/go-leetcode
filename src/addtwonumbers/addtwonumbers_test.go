@@ -2,7 +2,7 @@ package addtwonumbers
 
 import "testing"
 
-func Test_addtwonumbers(t *testing.T)  {
+func Test_addtwonumbers(t *testing.T) {
 	node1 := &ListNode{
 		Val: 2,
 		Next: &ListNode{
