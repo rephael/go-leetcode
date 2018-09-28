@@ -17,3 +17,18 @@ func bubbleUp(array []int) []int {
 	}
 	return array
 }
+
+func bubbleSort(array []int, length int) {
+	if length < 2 {
+		return
+	}
+	for index := range array {
+		if index > len(array)-2 {
+			break
+		}
+		if array[index] > array[index+1] {
+			array[index], array[index+1] = array[index+1], array[index]
+		}
+	}
+	bubbleSort(array, length-1)
+}

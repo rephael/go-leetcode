@@ -17,3 +17,9 @@ func Test_swap(t *testing.T) {
 	swap(&a, &b)
 	fmt.Println(a, b)
 }
+
+func Test_bubbleSort(t *testing.T) {
+	array := []int{3, 2, 5, 4, 7, 1, 9, 8}
+	bubbleSort(array, len(array))
+	fmt.Println(array)
+}
