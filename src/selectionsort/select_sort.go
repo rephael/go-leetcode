@@ -2,7 +2,7 @@ package selectionsort
 
 import (
 	"fmt"
-)
+) 
 
 // 选择排序普通实现
 func selectSort(array []int) {
