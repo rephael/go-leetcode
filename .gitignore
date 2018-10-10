@@ -14,3 +14,5 @@
 /.idea/
 /bin
 /pkg
+
+.DS_Store
